@@ -1,0 +1,103 @@
+@import url(reset.css);
+
+body {
+    background-color: #ffffff;
+}
+
+.container {
+    height: 1310px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 45px;
+}
+
+.topnav {
+    height: 54px;
+    background-color: brown;
+}
+
+header {
+    height: 237px;
+    width: auto;
+    background-image: url("/img/header.jpg");
+}
+
+.mainmenu {
+    height: 32px;
+    margin-top: 7px;
+    border: 1px solid #0c1542; /* stroke */
+    -moz-border-radius: 6px / 4px;
+    -webkit-border-radius: 6px / 4px;
+    border-radius: 6px / 4px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */
+    -moz-box-shadow: 2px 3px 5px rgba(0,0,0,.6); /* drop shadow */
+    -webkit-box-shadow: 2px 3px 5px rgba(0,0,0,.6); /* drop shadow */
+    box-shadow: 2px 3px 5px rgba(0,0,0,.6); /* drop shadow */
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzU2NWY2OCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+); /* gradient overlay */
+    background-image: -moz-linear-gradient(bottom, #000 0%, #565f68 100%); /* gradient overlay */
+    background-image: -o-linear-gradient(bottom, #000 0%, #565f68 100%); /* gradient overlay */
+    background-image: -webkit-linear-gradient(bottom, #000 0%, #565f68 100%); /* gradient overlay */
+    background-image: linear-gradient(bottom, #000 0%, #565f68 100%); /* gradient overlay */
+}
+
+.searchmenu {
+    height: 134px;
+    margin-top: 13px;
+    background-color: brown;
+
+}
+
+.leftmenu {
+    height: 625px;
+    width: 190px;
+    float: left;
+    margin-top: 15px;
+    background-color: #0c1542;
+}
+
+.content {
+    height: 625px;
+    width: 530px;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIyNGE1ZCIgc3RvcC1vcGFjaXR5PSIwLjQ5Ii8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2M5Y2ZkMSIgc3RvcC1vcGFjaXR5PSIwLjQ5Ii8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+); /* gradient overlay */
+    background-image: -moz-linear-gradient(bottom, rgba(35,75,93,.49) 0%, rgba(201,207,209,.49) 100%); /* gradient overlay */
+    background-image: -o-linear-gradient(bottom, rgba(35,75,93,.49) 0%, rgba(201,207,209,.49) 100%); /* gradient overlay */
+    background-image: -webkit-linear-gradient(bottom, rgba(35,75,93,.49) 0%, rgba(201,207,209,.49) 100%); /* gradient overlay */
+    background-image: linear-gradient(bottom, rgba(35,75,93,.49) 0%, rgba(201,207,209,.49) 100%); /* gradient overlay */
+
+}
+
+.rightmenu {
+    height: 625px;
+    width: 190px;
+    float: left;
+    margin-top: 15px;
+    background-color: #0c1542;
+}
+
+.brand {
+    height: 75px;
+    background-color: brown;
+    clear: both;
+}
+
+footer {
+    height: 99px;
+    border: 1px solid #24293c; /* stroke */
+    background-color: #213a4d; /* layer fill content + color overlay */
+    border-radius: 2px;
+    margin-top: 12px;
+    clear: both;
+}
